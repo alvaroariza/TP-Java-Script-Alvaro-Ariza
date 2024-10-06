@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP Java Script Ariza Alvaro</title>
+    <link rel = "stylesheet" href="./style.css"/>
+  </head>
+  <body>
+    <h1 id="titulo">TP JS</h1>
+    <div>
+      <button id="ej1.3" class="ejercicio">
+        Ejercicio 1.3
+      </button>
+      <button id="ej2.2" class="ejercicio">
+        Ejercicio 2.2
+      </button>
+      <button id="ej3.2" class="ejercicio">
+        Ejercicio 3.2
+      </button>
+      <button id="ej4.1" class="ejercicio">
+        Ejercicio 4.1
+      </button>
+      <button id="ej4.2" class="ejercicio">
+        Ejercicio 4.2
+      </button>
+      <button id="ej5.1" class="ejercicio">
+        Ejercicio 5.1
+      </button>
+      <button id="ej5.2" class="ejercicio">
+        Ejercicio 5.2
+      </button>
+    </div>
+    <div id="parrafos">
+      <p id="parr1">Este es el primer parrafo</p>
+      <p id="parr2">Este es el segundo parrafo</p>
+      <p id="parr3">Este es el tercer parrafo</p>
+      <button id="buttonParrafos">
+        Cambiar a color azul
+      </button>
+    </div>
+    <div>
+      <h2>Ejercico 7.2: Formulario con alerta</h2>
+      <label>Ingresa un texto:</label>
+      <input id="texto"/>
+      <button id="alerta">
+        Mostrar alerta
+      </button>
+    </div>
+    <div>
+      <ul>
+        <li id="1er">1er item</li>
+        <li id="2do">2do item</li>
+        <li id="3ro">3er item</li>
+        <li id="4to">4to item</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Ejercicio 8.2: Campo de texto y botones</h2>
+      <input id="campoTexto" placeholder="Ingresa algo"/>
+      <button id="btnDesh">Deshabilitar Campo</button>
+      <button id="btnHab">Habilitar Campo</button>
+    </div>
+    <fieldset class="container">
+      <legend>Formulario</legend>
+      <div>
+        <form id="emailForm">
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" required>
+            <button type="submit">Guardar Correo</button>
+        </form>
+        <div id="savedEmailContainer" style="display: none;">
+            <p>Correo guardado: <span id="savedEmail"></span></p>
+            <button id="deleteEmail">Eliminar Correo Guardado</button>
+        </div>
+      </div>
+    </fieldset>
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
